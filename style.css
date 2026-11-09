@@ -1,0 +1,55 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.219);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn.counter {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 45px;
+    font-size: 60px;
+}
+
+.boxes button {
+    width: 125px;
+    height: 125px;
+    font-size: 70px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#clear {
+    background-color: rgba(182, 37, 37, 0.932);
+    font-size: 70px;
+}
+
+#increase {
+    background-color: rgb(39, 39, 173);
+    color: azure;
+}
+
+#decrease {
+    background-color: rgb(39, 39, 173);
+    color: azure;
+}
